@@ -1,0 +1,3 @@
+D:/c++ projects/task tracker/build/CMakeFiles/TaskManager.dir
+D:/c++ projects/task tracker/build/CMakeFiles/edit_cache.dir
+D:/c++ projects/task tracker/build/CMakeFiles/rebuild_cache.dir
