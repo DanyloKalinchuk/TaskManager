@@ -7,7 +7,6 @@ project(TaskManager)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Determine the correct triplet based on compiler
 if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     set(VCPKG_TARGET_TRIPLET "x64-mingw-static")
     set(JSONCPP_ROOT "D:/C++ projects/TaskManager-main/vcpkg/installed/x64-mingw-static")
@@ -22,7 +21,6 @@ find_path(JSONCPP_INCLUDE_DIR
     NO_DEFAULT_PATH
 )
 
-# For MinGW, look for .a files first, then .lib
 find_library(JSONCPP_LIBRARY 
     NAMES jsoncpp libjsoncpp jsoncpp_static
     PATHS ${JSONCPP_ROOT}/lib
