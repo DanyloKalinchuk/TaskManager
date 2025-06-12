@@ -1,38 +1,44 @@
 [
 {
-  "directory": "D:/c++ projects/task tracker/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\main.cpp.obj -c \"D:\\c++ projects\\task tracker\\src\\main.cpp\"",
-  "file": "D:/c++ projects/task tracker/src/main.cpp",
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\main.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\main.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/main.cpp",
   "output": "CMakeFiles/TaskManager.dir/src/main.cpp.obj"
 },
 {
-  "directory": "D:/c++ projects/task tracker/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\task.cpp.obj -c \"D:\\c++ projects\\task tracker\\src\\tasks\\task.cpp\"",
-  "file": "D:/c++ projects/task tracker/src/tasks/task.cpp",
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\task.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\tasks\\task.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/tasks/task.cpp",
   "output": "CMakeFiles/TaskManager.dir/src/tasks/task.cpp.obj"
 },
 {
-  "directory": "D:/c++ projects/task tracker/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\tasks_list.cpp.obj -c \"D:\\c++ projects\\task tracker\\src\\tasks\\tasks_list.cpp\"",
-  "file": "D:/c++ projects/task tracker/src/tasks/tasks_list.cpp",
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\tasks_list.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\tasks\\tasks_list.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/tasks/tasks_list.cpp",
   "output": "CMakeFiles/TaskManager.dir/src/tasks/tasks_list.cpp.obj"
 },
 {
-  "directory": "D:/c++ projects/task tracker/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\task_base.cpp.obj -c \"D:\\c++ projects\\task tracker\\src\\tasks\\task_base.cpp\"",
-  "file": "D:/c++ projects/task tracker/src/tasks/task_base.cpp",
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\task_base.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\tasks\\task_base.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/tasks/task_base.cpp",
   "output": "CMakeFiles/TaskManager.dir/src/tasks/task_base.cpp.obj"
 },
 {
-  "directory": "D:/c++ projects/task tracker/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\subtask.cpp.obj -c \"D:\\c++ projects\\task tracker\\src\\tasks\\subtask.cpp\"",
-  "file": "D:/c++ projects/task tracker/src/tasks/subtask.cpp",
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\tasks\\subtask.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\tasks\\subtask.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/tasks/subtask.cpp",
   "output": "CMakeFiles/TaskManager.dir/src/tasks/subtask.cpp.obj"
 },
 {
-  "directory": "D:/c++ projects/task tracker/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\ui\\ui.cpp.obj -c \"D:\\c++ projects\\task tracker\\src\\ui\\ui.cpp\"",
-  "file": "D:/c++ projects/task tracker/src/ui/ui.cpp",
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\ui\\ui.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\ui\\ui.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/ui/ui.cpp",
   "output": "CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj"
+},
+{
+  "directory": "D:/c++ projects/TaskManager-main/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/TaskManager.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\TaskManager.dir\\src\\in_out\\in_out.cpp.obj -c \"D:\\c++ projects\\TaskManager-main\\src\\in_out\\in_out.cpp\"",
+  "file": "D:/c++ projects/TaskManager-main/src/in_out/in_out.cpp",
+  "output": "CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj"
 }
 ]

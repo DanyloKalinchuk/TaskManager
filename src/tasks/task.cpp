@@ -1,4 +1,3 @@
-#include <iostream>
 #include "task.hpp"
 
 
@@ -141,4 +140,40 @@ void Task::del_subtask(){
         }
     }
     std::cout << "Task succesfuly deleted \n";
+}
+
+/*Json*/
+
+Json::Value Task::toJson() const{
+    Json::Value root;
+
+    root["name"] = this->name;
+    root["status"] = tsk::status_to_string(this->status);
+    root["description"] = this->description;
+    root["priority"] = tsk::priority_to_string(this->priority);
+    root["deadline"] = this->deadline;
+
+    Json::Value subtasks_arr(Json::arrayValue);
+    for(const auto& subtask : this->sub_tasks){
+        subtasks_arr.append(subtask->toJson());
+    }
+    root["sub_tasks"] = subtasks_arr;
+
+    return root;
+}
+
+std::unique_ptr<Task> Task::fromJson(const Json::Value& root){
+    auto task = std::make_unique<Task>(root["name"].asString());
+
+    task->status = tsk::status_map.at(root["status"].asString());
+    task->description = root["description"].asString();
+    task->priority = tsk::priority_map.at(root["priority"].asString());
+    task->deadline = root["deadline"].asString();
+
+    const Json::Value& subtasks_arr = root["sub_tasks"];
+    for (const auto& subtask_json : subtasks_arr){
+        task->sub_tasks.push_back(SubTask::fromJson(subtask_json));
+    }
+
+    return task;
 }
