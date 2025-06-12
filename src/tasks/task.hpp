@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <vector>
 #include <memory>
 #include "subtask.hpp"
@@ -34,4 +35,7 @@ class Task : public TaskBase{
 
     void add_subtask();
     void del_subtask();
+
+    Json::Value toJson() const;
+    static std::unique_ptr<Task> fromJson(const Json::Value&);
 };

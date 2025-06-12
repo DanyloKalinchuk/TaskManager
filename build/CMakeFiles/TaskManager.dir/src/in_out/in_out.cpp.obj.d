@@ -1,13 +1,13 @@
-CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj: \
- D:\c++\ projects\TaskManager-main\src\ui\ui.cpp \
- C:/msys64/ucrt64/include/c++/15.1.0/iostream \
+CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj: \
+ D:\c++\ projects\TaskManager-main\src\in_out\in_out.cpp \
+ D:\c++\ projects\TaskManager-main\src\in_out\in_out.hpp \
+ C:/msys64/ucrt64/include/c++/15.1.0/fstream \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/ucrt64/include/c++/15.1.0/pstl/pstl_config.h \
- C:/msys64/ucrt64/include/c++/15.1.0/ostream \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/ostream.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/istream \
  C:/msys64/ucrt64/include/c++/15.1.0/ios \
  C:/msys64/ucrt64/include/c++/15.1.0/iosfwd \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/stringfwd.h \
@@ -136,19 +136,22 @@ CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/locale_facets.tcc \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/basic_ios.tcc \
+ C:/msys64/ucrt64/include/c++/15.1.0/ostream \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/ostream.h \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/ostream.tcc \
- C:/msys64/ucrt64/include/c++/15.1.0/istream \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/istream.tcc \
- D:\c++\ projects\TaskManager-main\src\ui\ui.hpp \
- D:/c++\ projects/TaskManager-main/src/tasks/tasks_list.hpp \
- D:/c++\ projects/TaskManager-main/src/tasks/task.hpp \
- C:/msys64/ucrt64/include/c++/15.1.0/vector \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/vector.tcc \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/fstream.tcc \
+ D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/json.h \
+ D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/config.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/cstdint \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
  C:/msys64/ucrt64/include/c++/15.1.0/memory \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_raw_storage_iter.h \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/align.h \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/unique_ptr.h \
@@ -163,19 +166,6 @@ CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.1.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/15.1.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/15.1.0/pstl/execution_defs.h \
- D:/c++\ projects/TaskManager-main/src/tasks/subtask.hpp \
- D:/c++\ projects/TaskManager-main/src/tasks/task_base.hpp \
- C:/msys64/ucrt64/include/c++/15.1.0/map \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_tree.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/node_handle.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_map.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_multimap.h \
- C:/msys64/ucrt64/include/c++/15.1.0/bits/erase_if.h \
- D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/json.h \
- D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/config.h \
- C:/msys64/ucrt64/include/c++/15.1.0/cstdint \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
  C:/msys64/ucrt64/include/c++/15.1.0/sstream \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/sstream.tcc \
  D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/allocator.h \
@@ -189,9 +179,24 @@ CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj: \
  D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/value.h \
  C:/msys64/ucrt64/include/c++/15.1.0/array \
  C:/msys64/ucrt64/include/c++/15.1.0/compare \
+ C:/msys64/ucrt64/include/c++/15.1.0/map \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_map.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_multimap.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/vector \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/15.1.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/15.1.0/deque \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_deque.h \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/deque.tcc \
  C:/msys64/ucrt64/include/c++/15.1.0/stack \
  C:/msys64/ucrt64/include/c++/15.1.0/bits/stl_stack.h \
- D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/writer.h
+ D:/C++\ projects/TaskManager-main/vcpkg/installed/x64-mingw-static/include/json/writer.h \
+ D:/c++\ projects/TaskManager-main/src/tasks/tasks_list.hpp \
+ D:/c++\ projects/TaskManager-main/src/tasks/task.hpp \
+ C:/msys64/ucrt64/include/c++/15.1.0/iostream \
+ D:/c++\ projects/TaskManager-main/src/tasks/subtask.hpp \
+ D:/c++\ projects/TaskManager-main/src/tasks/task_base.hpp

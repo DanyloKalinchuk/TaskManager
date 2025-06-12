@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj"
+  "CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj.d"
   "CMakeFiles/TaskManager.dir/src/main.cpp.obj"
   "CMakeFiles/TaskManager.dir/src/main.cpp.obj.d"
   "CMakeFiles/TaskManager.dir/src/tasks/subtask.cpp.obj"

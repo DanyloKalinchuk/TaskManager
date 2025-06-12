@@ -19,7 +19,7 @@ std::string tsk::status_to_string(Status status){
         return "DONE";
         
     case Status::IN_PROGRESS :
-        return "IN PROGRESS";
+        return "IN_PROGRESS";
 
     default:
         return "Invalid status value";

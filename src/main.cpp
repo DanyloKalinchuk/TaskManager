@@ -1,12 +1,12 @@
-#include <iostream>
-#include <stdlib.h>
 #include "ui/ui.hpp"
-
-using namespace std;
+#include "in_out/in_out.hpp"
 
 int main(){
+    in_out::read();
+
     menu::main_screen();
 
-    system("pause");
+    in_out::write();
+    
     return 0;
 }

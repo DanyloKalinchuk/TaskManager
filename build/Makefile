@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\c++ projects\task tracker"
+CMAKE_SOURCE_DIR = "D:\c++ projects\TaskManager-main"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\c++ projects\task tracker\build"
+CMAKE_BINARY_DIR = "D:\c++ projects\TaskManager-main\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++ projects\task tracker\build\CMakeFiles" "D:\c++ projects\task tracker\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++ projects\TaskManager-main\build\CMakeFiles" "D:\c++ projects\TaskManager-main\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++ projects\task tracker\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\c++ projects\TaskManager-main\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ TaskManager: cmake_check_build_system
 TaskManager/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskManager.dir\build.make CMakeFiles/TaskManager.dir/build
 .PHONY : TaskManager/fast
+
+src/in_out/in_out.obj: src/in_out/in_out.cpp.obj
+.PHONY : src/in_out/in_out.obj
+
+# target to build an object file
+src/in_out/in_out.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskManager.dir\build.make CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj
+.PHONY : src/in_out/in_out.cpp.obj
+
+src/in_out/in_out.i: src/in_out/in_out.cpp.i
+.PHONY : src/in_out/in_out.i
+
+# target to preprocess a source file
+src/in_out/in_out.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskManager.dir\build.make CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.i
+.PHONY : src/in_out/in_out.cpp.i
+
+src/in_out/in_out.s: src/in_out/in_out.cpp.s
+.PHONY : src/in_out/in_out.s
+
+# target to generate assembly for a file
+src/in_out/in_out.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaskManager.dir\build.make CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.s
+.PHONY : src/in_out/in_out.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -281,6 +305,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TaskManager
+	@echo ... src/in_out/in_out.obj
+	@echo ... src/in_out/in_out.i
+	@echo ... src/in_out/in_out.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

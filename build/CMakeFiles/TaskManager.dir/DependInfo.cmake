@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/c++ projects/task tracker/src/main.cpp" "CMakeFiles/TaskManager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/main.cpp.obj.d"
-  "D:/c++ projects/task tracker/src/tasks/subtask.cpp" "CMakeFiles/TaskManager.dir/src/tasks/subtask.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/subtask.cpp.obj.d"
-  "D:/c++ projects/task tracker/src/tasks/task.cpp" "CMakeFiles/TaskManager.dir/src/tasks/task.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/task.cpp.obj.d"
-  "D:/c++ projects/task tracker/src/tasks/task_base.cpp" "CMakeFiles/TaskManager.dir/src/tasks/task_base.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/task_base.cpp.obj.d"
-  "D:/c++ projects/task tracker/src/tasks/tasks_list.cpp" "CMakeFiles/TaskManager.dir/src/tasks/tasks_list.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/tasks_list.cpp.obj.d"
-  "D:/c++ projects/task tracker/src/ui/ui.cpp" "CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/in_out/in_out.cpp" "CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/in_out/in_out.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/main.cpp" "CMakeFiles/TaskManager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/main.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/tasks/subtask.cpp" "CMakeFiles/TaskManager.dir/src/tasks/subtask.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/subtask.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/tasks/task.cpp" "CMakeFiles/TaskManager.dir/src/tasks/task.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/task.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/tasks/task_base.cpp" "CMakeFiles/TaskManager.dir/src/tasks/task_base.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/task_base.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/tasks/tasks_list.cpp" "CMakeFiles/TaskManager.dir/src/tasks/tasks_list.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/tasks/tasks_list.cpp.obj.d"
+  "D:/c++ projects/TaskManager-main/src/ui/ui.cpp" "CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj" "gcc" "CMakeFiles/TaskManager.dir/src/ui/ui.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
